@@ -56,4 +56,16 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Implementações adicionais
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.coil.compose)
+    implementation(libs.pager.indicators)
+    implementation(libs.pager)
+    implementation(libs.live.data)
+    implementation(libs.glide)
+    implementation(libs.gson)
+    implementation(libs.constraint.layout)
+    implementation(libs.foundation)
+    implementation(libs.system.ui.controller)
 }
